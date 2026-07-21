@@ -32,3 +32,15 @@ print("dict2=", dict2)
 
 print("\ndict1 points to:", id(dict1))
 print("dict2 points to:", id(dict2))
+
+dict2['value'] = 22
+
+print("\nAfter the value is updated:")
+print("dict1=", dict1)
+print("dict2=", dict2)
+
+print("\ndict1 points to:", id(dict1))
+print("dict2 points to:", id(dict2))
+
+# after value for dict2 has been updated, both dict1 and dict2 values have both been updated
+# dictonaries can change
